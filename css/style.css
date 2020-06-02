@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*Classes Auxiliares*/
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear {
+    clear: both;
+}
+.w33{
+    float: left;
+    width: 25%;
+}
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+/*Classes do meu site*/
+
+header{
+    padding: 18px 0;
+}
+.logo{
+    float: left;  
+    padding-left: 5px;  
+    margin-top: 2px;
+    
+}
+.logo img{
+    width: 100px;
+    
+}
+nav.menu-desktop li.selected{    
+    font-weight: bold;
+    text-decoration: underline;   
+    color: #856DD7;   
+}
+nav.menu-desktop{
+    float: left;  
+    padding-right: 0px;  
+    display: flex; 
+    margin-left: 50px;
+    margin-top: 4px;
+}
+nav.menu-desktop ul{
+    position: relative;
+    top: 0px;
+}
+
+nav.menu-desktop li{
+    padding: 0 20px;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 14px;
+}
+nav.menu-desktop a{
+    color: black;
+    text-decoration: none;
+}
+nav.menu-desktop a:hover{
+    text-decoration: underline;
+}
+
+nav.menu-desktop-right > .search-box{
+    margin-right: 30px;
+}
+nav.menu-desktop-right{
+    float: right;  
+    display: flex;
+}
+
+.search-box{
+    border:solid 2px;
+    border-color: #856DD7;
+    border-radius:5px;
+    width:250px;
+    margin-top: 0px;
+    margin-right: 50px;
+    height: 35px;
+  }   
+.search-txt{
+    padding-left: 8px;
+    font-size: 14px;
+    border: none;
+    height: 28px;
+    width: 200px;
+    margin-right: 16px;
+}
+#search{
+    color: #856DD7;
+}
+nav.menu-desktop-right > .botao-gradiente {    
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    padding: 8px 15px 8px 25px;
+    margin-top: 0px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    background: transparent linear-gradient(58deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+}
+nav.menu-desktop-right > .botao-gradiente:hover{
+    background: rgba(0, 0, 0, 0);
+    color: #856DD7;
+    box-shadow: inset 0 0 0 3px #856DD7;
+}
+/*Section Main*/ *
+section.main-bg{
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-right: -50px;
+    background-image: url(../img/Grupo\ 2258.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+} 
+section.main-bg > .container {
+    position: relative;
+}
+section.main-bg h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: normal;
+}
+section.main-bg p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 20px;
+}
+div.group-buttons > .botao-main-ourworks{
+    text-align: center;
+    width: 140px;
+    height: 48px;
+    margin-top: 25px;
+    margin-right: 15px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    background: transparent linear-gradient(58deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+}
+div.group-buttons > .botao-main-ourworks:hover{
+    background: rgba(0, 0, 0, 0);
+    color: #856DD7;
+    box-shadow: inset 0 0 0 3px #856DD7;
+    text-decoration: none;
+}
+div.group-buttons > .botao-main-knowmore{
+    width: 140px;
+    height: 48px;
+    margin-top: 25px;
+    margin-left: 15px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0);
+    color: #856DD7;
+    text-decoration: none;
+    font-size: 14px;
+    border: 3px solid #9D60EB;;
+}
+div.group-buttons > .botao-main-knowmore:hover{
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    background: transparent linear-gradient(58deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+}
+section.main-bg > #bonecos {
+    position: absolute;
+    max-width: 600px;
+    height: 50%;
+    left: 30%;
+    margin-top: 140px;
+    z-index: 5;
+}
+
+div.img-main > .retangulo {
+    width: 100%;
+    margin-top: 340px;
+    position: absolute;
+}
+section.main-bg > .retangulo img{
+    margin-top: 340px;
+    position: absolute;
+}
+
+/* Segunda parte do site */
+
+section.receitas {
+    margin-top: 200px;
+}
+
+.col-md-6 > div.container{
+    width: 500px;
+}
+section.receitas img{
+    max-width: 300px;
+} 
+.col-md-12 {    
+    text-align: left;
+    width: 200px;
+    margin-top: 0;
+}
+.col-md-6 h1{
+    font-weight: normal;
+    font-size: 30px;
+}
+.col-md-6 p {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-right: 80px;
+}
+div.container > #img-second {
+    margin-top: 50px;
+    margin-right: 140px;
+}
+.receita-2-2 {
+    margin-top: 80px;
+}
+.botao-knowmore {    
+    width: 145px;
+    height: 48px;
+    padding: 10px 25px;
+    margin-top: 25px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    background: transparent linear-gradient(58deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+}
+.botao-knowmore:hover{
+    background: rgba(0, 0, 0, 0);
+    color: #856DD7;
+    box-shadow: inset 0 0 0 3px #856DD7;
+    text-decoration: none;
+}
+
+/* Section Contact */
+section.contact{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background-image: url(../img/Retângulo\ 511.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+section.contact>#fundo-contact{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+section.contact h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    padding-top: 50px;
+}
+
+/* form */
+
+.input{
+    background: none;
+    color:#c6c6c6;
+    font-size: 14px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid;
+    resize: none;
+}
+label{
+    font-weight: bold;
+    font-size: 14px;
+}
+.about-container{
+    width: 45%;
+    height: 530px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex; 
+    margin: 30px auto 20px auto;
+    position: relative;
+}
+.form-contact{
+    width: 100%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    padding: 20px;
+}
+form {
+    padding: 30px;
+    height: 100px;
+}
+textarea.form-control{
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 0;
+    border:none;
+    border-bottom: 1px solid;
+    color:#c6c6c6;
+}
+select.form-control{
+    border-radius: 0;
+    border:none;
+    border-bottom: 1px solid;
+    color:#c6c6c6;
+}
+.botao-ourworks {    
+    width: 120px;
+    height: 35px;
+    padding: 8px 25px 8px 25px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    background: transparent linear-gradient(58deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+}
+.botao-ourworks:hover{
+    background: rgba(0, 0, 0, 0);
+    color: #856DD7;
+    box-shadow: inset 0 0 0 3px #856DD7;
+}
+section.contact > .group-2554 {
+    max-width: 100%;
+    margin-left: 100px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    position: relative;
+}
+section.contact > .retangulo {
+    width: 100%;
+    bottom: 0px;
+    margin-top: 360px;
+}
+section.contact > .group-2554 {
+    max-width: 100%;
+    margin-left: 100px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    position: relative;
+}
+div.img-moca img{
+    height: 260px;
+    margin: 0;
+    position: absolute;
+    top: 315px;
+    margin-left: 120px;
+    margin-right: auto;
+    display: block;
+}
+div.img-moco img{
+    height: 260px;
+    margin: 0;
+    position: absolute;
+    top: 500px;
+    margin-left: 150px;
+}
+div.img-moco2 img{
+    height: 260px;
+    margin: 0;
+    position: absolute;
+    top: 500px;
+    margin-left: 940px;
+}
+/*Classes do footer*/
+div.container{
+    z-index: 5;
+}
+section.footer{
+    position: relative;;
+    padding: 20px 0;
+    top: 50px;
+}
+section.footer > .container{
+    position: relative;;
+    padding: 20px 0;
+    top: 80px;
+}
+section.footer i{
+    color: #856DD7;
+    font-size: 18px;
+}
+.logo-footer{ 
+    position:absolute;
+	left:50%;
+	margin-left:-110px;
+}
+section.footer h2{
+    font-size: 15px;
+    font-weight: bold;
+}
+section.footer p{
+    font-size: 12px;
+    color: #777777;
+    font-weight: normal;
+}
+section.footer a{
+    display: block;
+
+}
+section.footer a:hover{
+    text-decoration: none;
+    
+}
+div.group-icons a{
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+div.img-footer img{ 
+    max-width: 100%;
+    position: relative;
+}
+div.img-footer2 img{
+    max-width: 90%;
+    margin: 0;
+    position: absolute;
+    top: 56%;   
+    margin-left: 60px;
+    margin-right: -50px;
+}
+div.img-footer3 img{
+    max-width: 90%;
+    margin: 0;
+    position: absolute;
+    top: 61.5%;   
+    margin-left: 180px;
+    margin-right: -20px;
+}
+div.img-footer4 img{
+    max-width: 90%;
+    margin: 0;
+    position: absolute;
+    top: 50%;   
+    margin-left: 850px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 980px){
+    .overlay { display: none; } 
+    div.menus{
+        max-width: 80%;
+        float: center;
+    }
+    nav.menu-desktop-right > .search-box{
+        max-width: 60%;
+        font-size: 8px;
+    }    
+    section.main-bg {
+        max-width: 80%; 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 80%;
+    }
+    div.img-main > .retangulo {
+        width: 100%;
+        margin-top: 450px;
+        position: absolute;
+    }
+    .about-container{
+        padding: 5px 5px 5px 5px;
+        width: 90%;
+    }
+    .form-contact{
+        padding: 5px;
+    }
+    .form-row{
+        max-width: 100%;
+    }
+    .form-row label{
+        font-size: 14px;
+    }
+    input{
+        font-size: 12px;
+    }    
+    textarea.form-control{
+        max-height: 25px;
+    }
+    section.receitas{
+        max-width: 80%;
+        margin-top: 100px;
+    }
+    div.img-footer img{       
+        max-width: 100%;
+        transform: none;    
+    }
+    div.footer-section{
+        max-width: 95%;
+        margin: auto 20px auto 20px;
+    }
+
+}
