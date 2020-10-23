@@ -1,2 +1,4 @@
-projeto site\usados\*
+# Para arquivos svg
 *.svg
+# Para pasta com layouts já excluídos
+usados/ 
